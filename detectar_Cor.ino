@@ -4,7 +4,7 @@ void detectar_Cor() {
   lcd.print("Detectando cor       ");
   lcd.setCursor(0, 1);
   lcd.print("Aguarde...       ");
-  int Vetor_Cores[9];
+  int Vetor_Cores[10];
   for (int i = 0; i < 10; i++) {
     pixels.setPixelColor(0, 255, 0, 0); // Vermelho
     pixels.show(); // Mostra os pixels
